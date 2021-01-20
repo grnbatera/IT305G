@@ -24,7 +24,7 @@ A estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutte
 
 Neste projeto foram utilizados dados externos de fonte aberta para o estudo de regressão não linear, a saber:
 
-## 'external'
+### `external`
 
 [Resultados do Procel](https://drive.google.com/drive/folders/1lXbcbY7AO2QKraQjPi9V74p87YyijNLu?usp=sharing): Fonte de dados contendo o desempenho do Brasil frente a Eficiência Energética;
 
