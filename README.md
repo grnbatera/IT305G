@@ -32,9 +32,9 @@ Neste projeto foram utilizados dados externos de fonte aberta para o estudo de r
 
 [Anuário Estatítisco de Energia Elétrica](https://drive.google.com/drive/folders/11ri-E-GgCDF2cmAugMsTSBX7PH-5Ingr?usp=sharing): Fonte de dados onde são divulgados os dados detalhados relacionados ao consumo de energia elétrica na rede de distribuição;
 
-[Atlas da Eficiência Energética](https://drive.google.com/drive/folders/1Tht_77lq2VXDvLFrLQJtgIHGYOuwEkG9?usp=sharing):Fonte de dados dos indicadores de Eficiência Energética;
+[Atlas da Eficiência Energética](https://drive.google.com/drive/folders/1Tht_77lq2VXDvLFrLQJtgIHGYOuwEkG9?usp=sharing): Fonte de dados dos indicadores de Eficiência Energética;
 
-[World Energy Trilemma]():
+[World Energy Trilemma](https://drive.google.com/drive/folders/1Zy2W9BlIaWLzoALv1s9b2YJpO2MkkIEK?usp=sharing): Fonte de dados com o Ranking Internacional e análise dos países com relação ao trilema de energia e sustentabilidade.
 
 Dados utilizados no projeto respeitadas as possíveis implicações éticas, se você tiver licença para tal e se o volume for suportado pelo Github. Você pode optar por colocar um subconjunto ilustrativo dos dados.
 
