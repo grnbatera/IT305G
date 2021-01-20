@@ -1,29 +1,23 @@
 # IT305G
 Repositório do Projeto da Disciplina de Gestão de Energia Eficiência Energética.
 
-[Fontes de dados utilizados no projeto.](https://drive.google.com/drive/folders/1fTXtc0ejrpzzUZOWv7k_V8P4HiJsRu-T?usp=sharing)
-
-# Model for Project Presentation and Folder Structure (in Portuguese)
-
 # Estrutura de Arquivos e Pastas
 
-A estrutura aqui apresentada é uma simplificação daquela proposta pelo [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/). Também será aceito que o projeto adote a estrutura completa do Cookiecutter Data Science e isso será considerado um diferencial. A estrutura geral é a seguinte e será detalhada a seguir:
+A estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) simplificada do projeto: 
 
 ~~~
 ├── README.md          <- apresentação do projeto
 │
 ├── data
-│   ├── external       <- dados de terceiros
-│   ├── interim        <- dados intermediários, e.g., resultado de transformação
-│   ├── processed      <- dados finais usados para a modelagem
-│   └── raw            <- dados originais sem modificações
+│   ├── [external](https://drive.google.com/drive/folders/1fTXtc0ejrpzzUZOWv7k_V8P4HiJsRu-T?usp=sharing)       <- dados dos anuários utilizados no projeto.
+│   ├── [processed](https://github.com/grnbatera/IT305G/blob/main/D1An.csv)      <- dados normalizados usados nos modelos de regressão não lineares.
+│   └── [raw](https://github.com/grnbatera/IT305G/blob/main/D1A.csv)            <- dados originais sem modificações
 │
-├── notebooks          <- Jupyter notebooks ou equivalentes
+├── [notebooks](https://github.com/grnbatera/IT305G/blob/main/Projeto_IT305G.ipynb)          <- Colab notebooks do projeto.
 │
-├── src                <- fonte em linguagem de programação ou sistema (e.g., Orange)
-│   └── README.md      <- instruções básicas de instalação/execução
+├── Python 3.0                <- Linguagem de programação do projeto.
 │
-└── assets             <- mídias usadas no projeto
+└── [assets](https://drive.google.com/drive/folders/1g0EYfwXQz58qNGoQRK2k9ZmvTaa0gvaa?usp=sharing)             <- mídias usadas no projeto
 ~~~
 
 Na raiz deve haver um arquivo de nome `README.md` contendo a apresentação do projeto, como detalhado na seção seguinte.
