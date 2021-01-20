@@ -9,20 +9,24 @@ A estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutte
 ├── README.md          <- apresentação do projeto
 │
 ├── data
-│   ├── [external](https://drive.google.com/drive/folders/1fTXtc0ejrpzzUZOWv7k_V8P4HiJsRu-T?usp=sharing)       <- dados dos anuários utilizados no projeto.
-│   ├── [processed](https://github.com/grnbatera/IT305G/blob/main/D1An.csv)      <- dados normalizados usados nos modelos de regressão não lineares.
-│   └── [raw](https://github.com/grnbatera/IT305G/blob/main/D1A.csv)            <- dados originais sem modificações
+│   ├── external       <- dados dos anuários utilizados no projeto.
+│   ├── processed      <- dados normalizados usados nos modelos de regressão não lineares.
+│   └── raw            <- dados originais sem modificações
 │
-├── [notebooks](https://github.com/grnbatera/IT305G/blob/main/Projeto_IT305G.ipynb)          <- Colab notebooks do projeto.
+├── notebook           <- Colab notebooks do projeto.
 │
-├── Python 3.0                <- Linguagem de programação do projeto.
+├── Python 3.0         <- Linguagem de programação do projeto.
 │
-└── [assets](https://drive.google.com/drive/folders/1g0EYfwXQz58qNGoQRK2k9ZmvTaa0gvaa?usp=sharing)             <- mídias usadas no projeto
+└── assets             <- Gráficos, Apresentação PDF e Pitch do projeto
 ~~~
 
-Na raiz deve haver um arquivo de nome `README.md` contendo a apresentação do projeto, como detalhado na seção seguinte.
-
 ## `data`
+
+Neste projeto foram utilizados dados externos de fonte aberta para o estudo de regressão não linear, a saber:
+
+### 'external'
+
+[Resultados do Procel](https://drive.google.com/drive/folders/1lXbcbY7AO2QKraQjPi9V74p87YyijNLu?usp=sharing)
 
 Dados utilizados no projeto respeitadas as possíveis implicações éticas, se você tiver licença para tal e se o volume for suportado pelo Github. Você pode optar por colocar um subconjunto ilustrativo dos dados.
 
