@@ -24,7 +24,7 @@ A estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutte
 
 Neste projeto foram utilizados dados externos de fonte aberta para o estudo de regressão não linear, a saber:
 
-### `external`
+#### `external`
 
 [Resultados do Procel](https://drive.google.com/drive/folders/1lXbcbY7AO2QKraQjPi9V74p87YyijNLu?usp=sharing): Fonte de dados contendo o desempenho do Brasil frente a Eficiência Energética e a prestação de contas do Procel;
 
@@ -36,13 +36,13 @@ Neste projeto foram utilizados dados externos de fonte aberta para o estudo de r
 
 [World Energy Trilemma](https://drive.google.com/drive/folders/1Zy2W9BlIaWLzoALv1s9b2YJpO2MkkIEK?usp=sharing): Fonte de dados com o Ranking Internacional e análise dos países com relação ao trilema de energia e sustentabilidade.
 
-### `processed`
+#### `processed`
 
 [D1An](https://github.com/grnbatera/IT305G/blob/main/D1An.csv): Dados das fontes externas unificadas e normalizadas para a utilização nos modelos de Regressão não linear em Machine Learning;
 
 [Mapa de Variáveis](https://github.com/grnbatera/IT305G/blob/main/mapadevariaveisdeD1A.csv): Tabela contendo a descrição das variáveis de D1An utilizadas no projeto.
 
-### `raw`
+#### `raw`
 
 [D1A](https://github.com/grnbatera/IT305G/blob/main/D1An.csv): Dados das fontes externas unificadas com os valores originais para a utilização nos modelos de Regressão não linear em Machine Learning;
 
@@ -66,8 +66,8 @@ Todo o projeto foi realizado em um único notebook em Google Colaboratory em Pyt
 
 # Apresentação do Projeto:
 
-## `<Regressão de Dados dos Anuários de Energia e Eficiência Energética para Tomada de Decisão em Políticas Públicas Utilizando Machine Learning>`
-## `<Data Regression from Energy and Energy Efficiency Yearbooks for Decision Making in Public Policies Using Machine Learning>`
+## `Regressão de Dados dos Anuários de Energia e Eficiência Energética para Tomada de Decisão em Políticas Públicas Utilizando Machine Learning`
+### `Data Regression from Energy and Energy Efficiency Yearbooks for Decision Making in Public Policies Using Machine Learning`
 
 # Descrição Resumida do Projeto:
 ~~~
