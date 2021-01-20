@@ -58,34 +58,18 @@ Todo o projeto foi realizado em um único notebook em Google Colaboratory em Pyt
 
 ## `assets`
 
-Qualquer mídia usada no seu projeto: vídeo, ilustrações, arquivos PDF etc.
+[Gráficos](https://drive.google.com/drive/folders/1g0EYfwXQz58qNGoQRK2k9ZmvTaa0gvaa?usp=sharing): Todos os gráficos utilizados neste projeto;
 
-# Modelo para Apresentação do Projeto
+[Apresentação](https://github.com/grnbatera/IT305G/blob/main/Apresentação%20IT305G%20-%20Gleyson(043801).pdf): PDF contendo uma versão simplificada do projeto;
 
-Este é um guia de como produzir documentação em Markdown. Para entender como criar documentos em Markdown no Github, veja o material/vídeo:
-[Guia de Uso do Markdown](https://github.com/mc-unicamp/oficinas/tree/master/docs).
+[Pitch](http://bit.ly/videoIT305G): Vídeo curto de apresentação do projeto.
 
-Vide detalhes sobre o Markdown em: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+# Apresentação do Projeto:
 
-E mais especificamente sobre tabelas em: [Organizing information with tables](https://help.github.com/en/articles/organizing-information-with-tables)
+## `<Regressão de Dados dos Anuários de Energia e Eficiência Energética para Tomada de Decisão em Políticas Públicas Utilizando Machine Learning>`
+## `<Data Regression from Energy and Energy Efficiency Yearbooks for Decision Making in Public Policies Using Machine Learning>`
 
-O projeto pode ser apresentado em uma das possíveis formas:
-1. texto completo no arquivo `README.md`;
-2. texto no arquivo `README.md` e seção de Resultados e Discussão dentro de um notebook Jupyter ou equivalente -- nesse caso, deve haver um link para se abrir o notebook na respectiva seção;
-3. texto completo dentro de um notebook Jupyter ou equivalente -- nesse caso, o arquivo README.md deve conter pelo menos: o título, os componentes da equipe e um link para o notebook.
-
-Só será aceito o uso de notebook Jupyter (ou equivalente) para apresentação do projeto ou parte dele (formas 2 e 3), se for possível executá-lo online a partir de um link sem instalação local de software.
-
-Para todos os casos, a estrutura Markdown proposta abaixo poderá ser usada, dado que os notebooks aceitam Markdown.
-
-Segue abaixo o modelo de como deve ser apresentado e documentado o projeto. Tudo o que for indicado entre `<...>` indica algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
-
-# Modelo para Apresentação do Projeto
-
-# Projeto `<Título em Português>`
-# Project `<Title in English>`
-
-# Descrição Resumida do Projeto
+# Descrição Resumida do Projeto:
 ~~~
 <Descreva resumidamente o que fará o projeto. O resumo idealmente deve: apresentar o contexto; indicar o problema; apresentar a sua solução para o problema; indicar porque a sua solução é melhor do que os esforços atuais (não obrigatório); concluir com os resultados alcançados.>
 ~~~
