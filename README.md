@@ -48,20 +48,13 @@ Neste projeto foram utilizados dados externos de fonte aberta para o estudo de r
 
 [Mapa de Variáveis](https://github.com/grnbatera/IT305G/blob/main/mapadevariaveisdeD1A.csv): Tabela contendo a descrição das variáveis de D1A utilizadas no projeto.
 
+## `notebook`
 
-Dados utilizados no projeto respeitadas as possíveis implicações éticas, se você tiver licença para tal e se o volume for suportado pelo Github. Você pode optar por colocar um subconjunto ilustrativo dos dados.
-
-É importante que sejam colocados os dados originais (se for possível) para garantir a reprodutibilidade do processo. Os originais são colocados na subpasta `raw` se forem produzidos pela equipe e na subpasta `external` se forem de terceiros. Também podem ser colocados aqui dados intermediários (por exemplo, dados tratados, resumidos etc.) na pasta `interim`. Finalmente, coloque os dados finais que serviram de entrada para as suas análises na subpasta `processed`.
-
-## `notebooks`
-
-Código do seu projeto que pode ser executado online sem instalação de software, tal como um notebook em Jupyter ou equivalente.
+[Projeto IT305G](https://github.com/grnbatera/IT305G/blob/main/Projeto_IT305G.ipynb): Notebook em Google Colaboratory do projeto.
 
 ## `src`
 
-Código em alguma linguagem ou projeto em Orange, Weka e similares.
-
-Se for código em linguagem de programação, tente organizá-lo de forma que seja simples a sua execução por terceiros, por exemplo, acrescente as bibliotecas necessárias etc. Acrescente na raiz um arquivo `README.md` com as instruções básicas de instalação e execução.
+Todo o projeto foi realizado em um único notebook em Google Colaboratory em Python 3.0
 
 ## `assets`
 
