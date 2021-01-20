@@ -6,27 +6,27 @@ Repositório do Projeto da Disciplina de Gestão de Energia Eficiência Energét
 A estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) simplificada do projeto: 
 
 ~~~
-├── README.md          <- apresentação do projeto
+├── README.md          <- apresentação do projeto.
 │
 ├── data
 │   ├── external       <- dados dos anuários utilizados no projeto.
 │   ├── processed      <- dados normalizados usados nos modelos de regressão não lineares.
-│   └── raw            <- dados originais sem modificações
+│   └── raw            <- dados originais sem modificações.
 │
 ├── notebook           <- Colab notebooks do projeto.
 │
 ├── Python 3.0         <- Linguagem de programação do projeto.
 │
-└── assets             <- Gráficos, Apresentação PDF e Pitch do projeto
+└── assets             <- Gráficos, Apresentação PDF e Pitch do projeto.
 ~~~
 
 ## `data`
 
 Neste projeto foram utilizados dados externos de fonte aberta para o estudo de regressão não linear, a saber:
 
-### 'external'
+## 'external'
 
-[Resultados do Procel](https://drive.google.com/drive/folders/1lXbcbY7AO2QKraQjPi9V74p87YyijNLu?usp=sharing)
+[Resultados do Procel](https://drive.google.com/drive/folders/1lXbcbY7AO2QKraQjPi9V74p87YyijNLu?usp=sharing): Fonte de dados contendo o desempenho do Brasil frente a Eficiência Energética;
 
 Dados utilizados no projeto respeitadas as possíveis implicações éticas, se você tiver licença para tal e se o volume for suportado pelo Github. Você pode optar por colocar um subconjunto ilustrativo dos dados.
 
