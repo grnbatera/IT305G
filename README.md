@@ -188,11 +188,12 @@ c) Aleatoriedade em modelos de regressão por Machine Learning: um dos pontos po
 ~~~
 Com base na aplicação dos dados padronizados nos modelos de regressão não lineares por Machine Learning foram obtidos os seguintes resultados:
 ~~~
-https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg
-https://github.com/grnbatera/IT305G/blob/main/Mídias/g03.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g04.jpg
-https://github.com/grnbatera/IT305G/blob/main/Mídias/g05.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g06.jpg
-https://github.com/grnbatera/IT305G/blob/main/Mídias/g07.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g08.jpg
-https://github.com/grnbatera/IT305G/blob/main/Mídias/g09.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g10.jpg
+![Gráfico 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg) | ![Gráfico 02](https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg)
+![Gráfico 03](https://github.com/grnbatera/IT305G/blob/main/Mídias/g03.jpg) | ![Gráfico 04](https://github.com/grnbatera/IT305G/blob/main/Mídias/g04.jpg)
+![Gráfico 05](https://github.com/grnbatera/IT305G/blob/main/Mídias/g05.jpg) | ![Gráfico 06](https://github.com/grnbatera/IT305G/blob/main/Mídias/g06.jpg)
+![Gráfico 07](https://github.com/grnbatera/IT305G/blob/main/Mídias/g07.jpg) | ![Gráfico 08](https://github.com/grnbatera/IT305G/blob/main/Mídias/g08.jpg)
+![Gráfico 09](https://github.com/grnbatera/IT305G/blob/main/Mídias/g09.jpg) | ![Gráfico 10](https://github.com/grnbatera/IT305G/blob/main/Mídias/g10.jpg)
+
 
 # Conclusões
 ~~~
