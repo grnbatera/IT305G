@@ -62,7 +62,7 @@ Todo o projeto foi realizado em um único notebook em Google Colaboratory em Pyt
 
 [Apresentação](https://github.com/grnbatera/IT305G/blob/main/Apresentação%20IT305G%20-%20Gleyson(043801).pdf): PDF contendo uma versão simplificada do projeto;
 
-[Pitch](http://bit.ly/videoIT305G): Vídeo curto de apresentação do projeto.
+[Pitch](http://bit.ly/youtubeIT305G): Vídeo curto de apresentação do projeto.
 
 # Apresentação do Projeto:
 
@@ -91,7 +91,7 @@ The regression by Gradient Boosting brought 5 most important variables to the mo
 * `Gleyson Roberto do Nascimento` - `043801`
 
 # Vídeo do Projeto
-[Projeto de IT305G](http://bit.ly/videoIT305G)
+[Projeto de IT305G](http://bit.ly/youtubeIT305G)
 
 # Introdução e Motivação
 ~~~
@@ -104,22 +104,30 @@ Tentaremos verificar aqui se:
 
 1) Considerando-se as variáveis existentes nos anuários, existe alguma correlação de forma a validar uma regressão não linear?
 
-2)
+2) Se existe uma regressão não linear possível, existe uma metodologia simples em Machine Learning ou será necessário o uso do Deep Learning?
+
+3) Escolhida uma metodologia, os resultados de score e RMSE são aceitáveis ou teve overfitting/underfitting?
+
+4) Supondo que a metodologia possui resultados aceitáveis, ela consegue indicar a importância das features (variáveis)?
+
+5) Uma vez conhecidas as importâncias das features (variáveis), é possível fazer uma tomada de decisão para implementar políticas públicas?
+
+6) Uma vez sugeridas as políticas públicas, estas surgem para alterar alguma já existente ou são completamente novas? Além disso, são simples ou muito complexas para implementar? 
 ~~~
 
 ## Objetivos do projeto
 ~~~
-<Como seu projeto propôs abordar o problema apresentado.>
+Considerando-se uma grande variedade nos valores das variáveis encontradas nos anuários utilizados como fontes de dados, não seria possível uma convergência válida para uma regressão não linear, assim, a metodologia mais adequda foi a normalização de dados, viabilizando o estudo científico e sua aplicação em Machine Learning. A partir disso, as análises seguiram o fluxo investigativo das pergguntas da pesquisa com vistas a uma tomada de decisão prática nas políticas públicas.   
 ~~~
 
 # Recursos e Métodos
 
 ## Bases de Dados
-`<Elencar bases de dados utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
+
 Base de Dados | Endereço na Web | Resumo descritivo e uso
 ----- | ----- | -----
-Base 1 | http://base1.org/ | `<Descrição da Base 1 e para que ela foi usada no projeto.>`
-Base 2 | http://base2.org/ | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+D1A | https://github.com/grnbatera/IT305G/blob/main/D1A.csv | `Dados sem modificação utilizados base para o projeto`
+D1An | https://github.com/grnbatera/IT305G/blob/main/D1An.csv | `Dados normalizados que de fato foram utilizados no projeto`
 
 ## Ferramentas
 
