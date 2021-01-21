@@ -73,7 +73,7 @@ Todo o projeto foi realizado em um único notebook em Google Colaboratory em Pyt
 ~~~
 Este projeto visa unificar fontes de dados livres relativas ao uso de energia e eficiência energética com o objetivo de obter um modelo de regressão não linear por Machine Learning e, através deste modelo, propor políticas públicas que ajudem o Brasil a melhorar sua posição com relação ao World Energy Trilemma. 
 
-Assim, após a unificação dos dados e sua normalização (uma vez que as variáveis envolvidas possuem valores muito distintos entre si), os dados foram subemetidos aos processos de regressão não linear por machine learning o modelo com o melhor desempenho de score de treino, score de teste e RMSE foi a regressão por Gradient Boosting.
+Assim, após a unificação dos dados e sua normalização (uma vez que as variáveis envolvidas possuem valores muito distintos entre si), os dados foram submetidos aos processos de regressão não linear por machine learning o modelo com o melhor desempenho de score de treino, score de teste e RMSE foi a regressão por Gradient Boosting.
 
 A regressão por Gradient Boosting trouxe 5 variáveis mais importantes para o modelo e, a partir disso, foram elaboradas 3 propostas de políticas públicas visando melhorar estas variáveis e consequentemente o posicionamento do Brasil com relação ao Trilemma.
 ~~~
@@ -95,12 +95,16 @@ The regression by Gradient Boosting brought 5 most important variables to the mo
 
 # Introdução e Motivação
 ~~~
-<Descrição do tema do projeto, incluindo motivação, contexto gerador e caracterização do problema. A introdução também pode apresentar iniciativas correlatas para lidar com o problema (não obrigatório) e deve introduzir de forma mais detalhada que o resumo a solução proposta e resultados alcançados. Aqui também são apresentadas as seções do projeto.>
+Na atualidade, a análise de dados está se tornando cada vez mais importante dada a sua capacidade de encontrar padrões e possibilidades antes não cogitadas e, assim, auxiliar em tomadas de decisão. Desta forma, através de metodologias de Machine Learning, serão analisados dados unificados de cinco tipos de anuários complementares visando uma tomada de decisão que resulte em políticas públicas que melhorem o posicionamento do Brasil com relação ao seu posicionamento no World Energy Trilemma.
 ~~~
 
 ## Perguntas de Pesquisa
 ~~~
-<Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.>
+Tentaremos verificar aqui se:
+
+1) Considerando-se as variáveis existentes nos anuários, existe alguma correlação de forma a validar uma regressão não linear?
+
+2)
 ~~~
 
 ## Objetivos do projeto
