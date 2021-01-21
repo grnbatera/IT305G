@@ -122,20 +122,6 @@ Considerando-se uma grande variedade nos valores das variáveis encontradas nos 
 ~~~
 ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/diag01.jpg)
 
-Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
------ | ----- | ----- | ----- | -----
-1 | Regressão com GradientBoosting | 0.9999999060685 | 0.930055664679408 | 0.154478588479773
-2 | Regressão por Árvore de Decisão com AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
-3 | Regressão por AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
-4 | Regressão por Support Vector Regressor - Kernel Polynomial | 0.99018307556021 | 0.733055286436736 | 0.301788496308552
-5 | Regressão Multivariável | 1 | 0.657599492165343 | 0.341789895132097
-6 | Regressão por Bagging | 0.809579182630907 | 0.466085600907028 | 0.426803365676911
-7 | Regressão por Support Vector Regressor - Kernel Linear | 0.990168652051838 | 0.612689391992557 | 0.363514479861328
-8 | Regressão por Random Forrest | 0.783752287732621 | 0.400043845663265 | 0.452430396339587
-9 | Regressão por Support Vector Regressor - Kernel RBF | 0.990157176414034 | 0.144717519805832 | 0.540190331461215
-10 | Regressão por Árvore de Decisão | 0.997263273125342 | -0.0306122448979591 | 0.592979483991658
-
-
 # Recursos e Métodos
 
 ## Bases de Dados
@@ -167,6 +153,9 @@ De forma simplificada, o banco de dados unificado possuía 59 variáveis diferen
 
 ## Detalhamento do Projeto
 ~~~
+Uma vez que os dados brutos foram normalizados, devido a grande disparidade de grandezas entre as variáveis existentes, estes passaram pelos 10 principais algorítmos de regressão não linear por Machine Learning disponíveis no Python 3.0. Para a análise destas saídas foram considerados 3 principais parâmetros: o score de treino, o score de teste e o RMSE. De forma que as respostas puderam ser compiladas conforme a tabela abaixo:
+~~~
+
 Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
 ----- | ----- | ----- | ----- | -----
 1 | Regressão com GradientBoosting | 0.9999999060685 | 0.930055664679408 | 0.154478588479773
@@ -179,6 +168,9 @@ Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Qu
 8 | Regressão por Random Forrest | 0.783752287732621 | 0.400043845663265 | 0.452430396339587
 9 | Regressão por Support Vector Regressor - Kernel RBF | 0.990157176414034 | 0.144717519805832 | 0.540190331461215
 10 | Regressão por Árvore de Decisão | 0.997263273125342 | -0.0306122448979591 | 0.592979483991658
+
+~~~
+Após a análise desta resposta, chegou-se a conclusão que o melhor método de regressão não linear foi a rgressão por Gradient Boosting e, a partir disso, foi feita a análise das principais features fornecidas por este modelo para então haver uma tomada de decisão para elaboração de políticas públicas.
 ~~~
 
 ## Evolução do Projeto
