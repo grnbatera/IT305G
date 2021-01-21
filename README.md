@@ -127,6 +127,7 @@ Ferramenta | Endereço na Web
 
 
 Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
+----- | ----- | ----- | ----- | -----
 1 | Regressão com GradientBoosting | 0.9999999060685 | 0.930055664679408 | 0.154478588479773
 2 | Regressão por Árvore de Decisão com AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
 3 | Regressão por AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
