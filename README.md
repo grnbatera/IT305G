@@ -69,21 +69,29 @@ Todo o projeto foi realizado em um único notebook em Google Colaboratory em Pyt
 ## `Regressão de Dados dos Anuários de Energia e Eficiência Energética para Tomada de Decisão em Políticas Públicas Utilizando Machine Learning`
 ### `Data Regression from Energy and Energy Efficiency Yearbooks for Decision Making in Public Policies Using Machine Learning`
 
-# Descrição Resumida do Projeto:
+# Descrição:
 ~~~
-<Descreva resumidamente o que fará o projeto. O resumo idealmente deve: apresentar o contexto; indicar o problema; apresentar a sua solução para o problema; indicar porque a sua solução é melhor do que os esforços atuais (não obrigatório); concluir com os resultados alcançados.>
+Este projeto visa unificar fontes de dados livres relativas ao uso de energia e eficiência energética com o objetivo de obter um modelo de regressão não linear por Machine Learning e, através deste modelo, propor políticas públicas que ajudem o Brasil a melhorar sua posição com relação ao World Energy Trilemma. 
+
+Assim, após a unificação dos dados e sua normalização (uma vez que as variáveis envolvidas possuem valores muito distintos entre si), os dados foram subemetidos aos processos de regressão não linear por machine learning o modelo com o melhor desempenho de score de treino, score de teste e RMSE foi a regressão por Gradient Boosting.
+
+A regressão por Gradient Boosting trouxe 5 variáveis mais importantes para o modelo e, a partir disso, foram elaboradas 3 propostas de políticas públicas visando melhorar estas variáveis e consequentemente o posicionamento do Brasil com relação ao Trilemma.
 ~~~
 
-# Abstract in English
+# Abstract:
 ~~~
-<English version of the abstract.>
+This project aims to unify free data sources related to the use of energy and energy efficiency in order to obtain a non-linear regression model by Machine Learning and, through this model, to propose public policies that help Brazil to improve its position in relation to the World Energy Trilemma.
+
+Thus, after the data was unified and normalized (since the variables involved have very different values), the data were submitted to non-linear regression processes by machine learning, the model with the best performance of training score, score test and RMSE was regression by Gradient Boosting.
+
+The regression by Gradient Boosting brought 5 most important variables to the model and, based on that, 3 public policy proposals were elaborated in order to improve these variables and consequently Brazil's position in relation to Trilemma.
 ~~~
 
 # Equipe
-* `<nome completo>` - `<RA>`
+* `Gleyson Roberto do Nascimento` - `043801`
 
 # Vídeo do Projeto
-`<coloque um link para o vídeo apresentado o projeto.>`
+[Projeto de IT305G](http://bit.ly/videoIT305G)
 
 # Introdução e Motivação
 ~~~
