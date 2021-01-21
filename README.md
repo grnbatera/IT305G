@@ -161,21 +161,24 @@ Regressão por Support Vector Regressor | http://bit.ly/2NoD8g6 | `Modelo de Reg
 
 # Metodologia
 ~~~
-<Abordagem/metodologia adotada, incluindo especificação de quais técnicas foram exploradas, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas.>
+De forma simplificada, o banco de dados unificado possuía 59 variáveis diferentes, de forma que para encontrar alguma correlação entre elas optou-se pelo método clássico da regressão não linear, ou seja, buscou-se entender como 58 variáveis independentes se relacionavam para chegar a uma variável dependente, que no caso é o posicionamento do Brasil no ranking do World Energy Trilemma. Como existe um número significativo de variáveis optou-se pelos 10 principais métodos de regressão não linear por Machine Learning disponíveis para o Python 3.0. Conforme o Diagrama 02 abaixo: 
 ~~~
+![Diagrama 02](https://github.com/grnbatera/IT305G/blob/main/Mídias/diag02.jpg)
 
 ## Detalhamento do Projeto
 ~~~
-<Apresente aqui detalhes da análise. Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
-
-Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.>
-~~~
-
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
+Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
+----- | ----- | ----- | ----- | -----
+1 | Regressão com GradientBoosting | 0.9999999060685 | 0.930055664679408 | 0.154478588479773
+2 | Regressão por Árvore de Decisão com AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
+3 | Regressão por AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
+4 | Regressão por Support Vector Regressor - Kernel Polynomial | 0.99018307556021 | 0.733055286436736 | 0.301788496308552
+5 | Regressão Multivariável | 1 | 0.657599492165343 | 0.341789895132097
+6 | Regressão por Bagging | 0.809579182630907 | 0.466085600907028 | 0.426803365676911
+7 | Regressão por Support Vector Regressor - Kernel Linear | 0.990168652051838 | 0.612689391992557 | 0.363514479861328
+8 | Regressão por Random Forrest | 0.783752287732621 | 0.400043845663265 | 0.452430396339587
+9 | Regressão por Support Vector Regressor - Kernel RBF | 0.990157176414034 | 0.144717519805832 | 0.540190331461215
+10 | Regressão por Árvore de Decisão | 0.997263273125342 | -0.0306122448979591 | 0.592979483991658
 ~~~
 
 ## Evolução do Projeto
