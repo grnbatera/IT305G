@@ -134,7 +134,14 @@ D1An | https://github.com/grnbatera/IT305G/blob/main/D1An.csv | `Dados normaliza
 Ferramenta | Endereço na Web | Resumo descritivo e uso
 ----- | ----- | -----
 Regressão Multivariável | https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html | `Modelo de Regressão Multivariável utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
+Regressão por Árvore de Decisão | https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html | `Modelo de Regressão por Árvore de Decisão utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Árvore de Decisão com AdaBoost | https://scikit-learn.org/stable/auto_examples/ensemble/plot_adaboost_regression.html# | `Modelo de Regressão por Árvore de Decisão com AdaBoost utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por AdaBoost | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html | `Modelo de Regressão por AdaBoost utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por GradientBoosting | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html | `Modelo de Regressão por GradientBoosting utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Bagging | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingRegressor.html | `Modelo de Regressão por Bagging utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Random Forest | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html | `Modelo de Regressão por Random Forest utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Support Vector Regressor | https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html | `Modelo de Regressão por Support Vector Regressor utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+
 
 # Metodologia
 ~~~
