@@ -58,7 +58,7 @@ Todo o projeto foi realizado em um único notebook em Google Colaboratory em Pyt
 
 ## `assets`
 
-[Gráficos](https://drive.google.com/drive/folders/1g0EYfwXQz58qNGoQRK2k9ZmvTaa0gvaa?usp=sharing): Todos os gráficos utilizados neste projeto;
+[Gráficos](https://github.com/grnbatera/IT305G/tree/main/Mídias): Todos os gráficos utilizados neste projeto;
 
 [Apresentação](https://github.com/grnbatera/IT305G/blob/main/Apresentação%20IT305G%20-%20Gleyson(043801).pdf): PDF contendo uma versão simplificada do projeto;
 
@@ -93,6 +93,7 @@ The regression by Gradient Boosting brought 5 most important variables to the mo
 # Vídeo do Projeto
 [![Projeto IT305G](https://github.com/grnbatera/IT305G/blob/main/Mídias/thumb.jpg)](http://bit.ly/youtubeIT305G)
 
+
 # Introdução e Motivação
 ~~~
 Na atualidade, a análise de dados está se tornando cada vez mais importante dada a sua capacidade de encontrar padrões e possibilidades antes não cogitadas e, assim, auxiliar em tomadas de decisão. Desta forma, através de metodologias de Machine Learning, serão analisados dados unificados de cinco tipos de anuários complementares visando uma tomada de decisão que resulte em políticas públicas que melhorem o posicionamento do Brasil com relação ao seu posicionamento no World Energy Trilemma.
@@ -117,14 +118,9 @@ Tentaremos verificar aqui se:
 
 ## Objetivos do projeto
 ~~~
-Considerando-se uma grande variedade nos valores das variáveis encontradas nos anuários utilizados como fontes de dados, não seria possível uma convergência válida para uma regressão não linear, assim, a metodologia mais adequda foi a normalização de dados, viabilizando o estudo científico e sua aplicação em Machine Learning. A partir disso, as análises seguiram o fluxo investigativo das pergguntas da pesquisa com vistas a uma tomada de decisão prática nas políticas públicas. 
+Considerando-se uma grande variedade nos valores das variáveis encontradas nos anuários utilizados como fontes de dados, não seria possível uma convergência válida para uma regressão não linear, assim, a metodologia mais adequda foi a normalização de dados, viabilizando o estudo científico e sua aplicação em Machine Learning. A partir disso, as análises seguiram o fluxo investigativo das pergguntas da pesquisa com vistas a uma tomada de decisão prática nas políticas públicas. Como pode ser visto no Diagrama 01.
 ~~~
-Conforme o ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg)
-
-Ferramenta | Endereço na Web
------ | -----
-![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg) | ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg)
-
+![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/diag01.jpg)
 
 Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
 ----- | ----- | ----- | ----- | -----
@@ -153,14 +149,14 @@ D1An | https://github.com/grnbatera/IT305G/blob/main/D1An.csv | `Dados normaliza
 
 Ferramenta | Endereço na Web | Resumo descritivo e uso
 ----- | ----- | -----
-Regressão Multivariável | https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html | `Modelo de Regressão Multivariável utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por Árvore de Decisão | https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html | `Modelo de Regressão por Árvore de Decisão utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por Árvore de Decisão com AdaBoost | https://scikit-learn.org/stable/auto_examples/ensemble/plot_adaboost_regression.html# | `Modelo de Regressão por Árvore de Decisão com AdaBoost utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por AdaBoost | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html | `Modelo de Regressão por AdaBoost utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por GradientBoosting | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html | `Modelo de Regressão por GradientBoosting utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por Bagging | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingRegressor.html | `Modelo de Regressão por Bagging utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por Random Forest | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html | `Modelo de Regressão por Random Forest utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
-Regressão por Support Vector Regressor | https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html | `Modelo de Regressão por Support Vector Regressor utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão Multivariável | http://bit.ly/39Q5zuR | `Modelo de Regressão Multivariável utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Árvore de Decisão | http://bit.ly/2LJxjti | `Modelo de Regressão por Árvore de Decisão utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Árvore de Decisão com AdaBoost | http://bit.ly/398eWHn | `Modelo de Regressão por Árvore de Decisão com AdaBoost utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por AdaBoost | http://bit.ly/3ivTT4v | `Modelo de Regressão por AdaBoost utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por GradientBoosting | http://bit.ly/2LRmhlE | `Modelo de Regressão por GradientBoosting utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Bagging | http://bit.ly/3phELud | `Modelo de Regressão por Bagging utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Random Forest | http://bit.ly/3o4lmv5 | `Modelo de Regressão por Random Forest utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
+Regressão por Support Vector Regressor | http://bit.ly/2NoD8g6 | `Modelo de Regressão por Support Vector Regressor utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
 
 
 # Metodologia
