@@ -119,8 +119,11 @@ Tentaremos verificar aqui se:
 ~~~
 Considerando-se uma grande variedade nos valores das variáveis encontradas nos anuários utilizados como fontes de dados, não seria possível uma convergência válida para uma regressão não linear, assim, a metodologia mais adequda foi a normalização de dados, viabilizando o estudo científico e sua aplicação em Machine Learning. A partir disso, as análises seguiram o fluxo investigativo das pergguntas da pesquisa com vistas a uma tomada de decisão prática nas políticas públicas. 
 ~~~
-Conforme o ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg)  
+Conforme o ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg)
 
+Ferramenta | Endereço na Web
+----- | -----
+![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg) | ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg)
 # Recursos e Métodos
 
 ## Bases de Dados
