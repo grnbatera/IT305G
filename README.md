@@ -124,6 +124,21 @@ Conforme o ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/
 Ferramenta | Endereço na Web
 ----- | -----
 ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg) | ![Diagrama 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg)
+
+
+Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
+1 | Regressão com GradientBoosting | 0.9999999060685 | 0.930055664679408 | 0.154478588479773
+2 | Regressão por Árvore de Decisão com AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
+3 | Regressão por AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
+4 | Regressão por Support Vector Regressor - Kernel Polynomial | 0.99018307556021 | 0.733055286436736 | 0.301788496308552
+5 | Regressão Multivariável | 1 | 0.657599492165343 | 0.341789895132097
+6 | Regressão por Bagging | 0.809579182630907 | 0.466085600907028 | 0.426803365676911
+7 | Regressão por Support Vector Regressor - Kernel Linear | 0.990168652051838 | 0.612689391992557 | 0.363514479861328
+8 | Regressão por Random Forrest | 0.783752287732621 | 0.400043845663265 | 0.452430396339587
+9 | Regressão por Support Vector Regressor - Kernel RBF | 0.990157176414034 | 0.144717519805832 | 0.540190331461215
+10 | Regressão por Árvore de Decisão | 0.997263273125342 | -0.0306122448979591 | 0.592979483991658
+
+
 # Recursos e Métodos
 
 ## Bases de Dados
