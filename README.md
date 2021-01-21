@@ -126,15 +126,14 @@ Considerando-se uma grande variedade nos valores das variáveis encontradas nos 
 
 Base de Dados | Endereço na Web | Resumo descritivo e uso
 ----- | ----- | -----
-D1A | https://github.com/grnbatera/IT305G/blob/main/D1A.csv | `Dados sem modificação utilizados base para o projeto`
-D1An | https://github.com/grnbatera/IT305G/blob/main/D1An.csv | `Dados normalizados que de fato foram utilizados no projeto`
+D1A | https://github.com/grnbatera/IT305G/blob/main/D1A.csv | `Dados sem modificação utilizados como base para o projeto`
+D1An | https://github.com/grnbatera/IT305G/blob/main/D1An.csv | `Dados normalizados que de fato foram utilizados nos modelos de Machine Learning do projeto`
 
 ## Ferramentas
 
-`<Elencar ferramentas utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
 Ferramenta | Endereço na Web | Resumo descritivo e uso
 ----- | ----- | -----
-Ferramenta 1 | http://ferramenta1.org/ | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
+Regressão Multivariável | https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html | `Modelo de Regressão Multivariável utilizado para determinar as features mais importantes do banco de dados que ajudarão na tomada de decisão em políticas públicas`
 Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
 
 # Metodologia
