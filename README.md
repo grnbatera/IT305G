@@ -119,7 +119,7 @@ Tentaremos verificar aqui se:
 ~~~
 Considerando-se uma grande variedade nos valores das variáveis encontradas nos anuários utilizados como fontes de dados, não seria possível uma convergência válida para uma regressão não linear, assim, a metodologia mais adequda foi a normalização de dados, viabilizando o estudo científico e sua aplicação em Machine Learning. A partir disso, as análises seguiram o fluxo investigativo das pergguntas da pesquisa com vistas a uma tomada de decisão prática nas políticas públicas. 
 ~~~
-Conforme o ![Diagrama 01](https://drive.google.com/file/d/1ozzg0ua4vwbUQYEDUOmbzLbwANtt7Kuh/view?usp=sharing)  
+Conforme o ![Diagrama 01](https://drive.google.com/file/d/1nUC3cyNKM17vOBqdDndCcwaZGIpEO74y/view?usp=sharing)  
 
 # Recursos e Métodos
 
