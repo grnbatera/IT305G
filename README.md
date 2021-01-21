@@ -208,7 +208,7 @@ v47 | 4 | Consumo Médio Tensão A3 - 69kV(GWh)
 v49 | 5 | Consumo Médio Tensão A4- 2,3 a 25 kV(GWh)
 
 ~~~
-Uma vez que as features (variáveis) mais relevantes forma determinadas, cabe a análise destas na série de dados, como segue:
+Uma vez que as features (variáveis) mais relevantes foram determinadas, cabe a análise destas na série de dados, como segue:
 ~~~
 
 Comportamento das features na série de dados | Comportamento das features na série de dados
@@ -228,10 +228,36 @@ c) Para a Tarifa Média na Tensão A1: A proposta para este caso é mais simples
 
 # Conclusões
 ~~~
-<Apresente aqui as conclusões finais do trabalho e as lições aprendidas.>
+Primeiramente, podemos responder os questionamentos iniciais deste projeto:
+
+1) Considerando-se as variáveis existentes nos anuários, existe alguma correlação de forma a validar uma regressão não linear?
+R- Sim, existem correlações e foi possível validar uma regressão não linear por Gradient Boosting.
+
+2) Se existe uma regressão não linear possível, existe uma metodologia simples em Machine Learning ou será necessário o uso do Deep Learning?
+R- O Gradient Boosting é uma metodologia simplificada de Machine Learning, de forma que não houve a necessidade do uso do Deep Learning.
+
+3) Escolhida uma metodologia, os resultados de score e RMSE são aceitáveis ou teve overfitting/underfitting?
+R- Algumas das metodologias testadas nesse projeto apresentaram overfitting e underfiting, contudo, isso não foi observado no caso do Gradient Boosting, ele manteve-se em bom desempenho e com RMSE entre os mais baixos testados. 
+
+4) Supondo que a metodologia possui resultados aceitáveis, ela consegue indicar a importância das features (variáveis)?
+R- O modelo de regressão por Gradient Boosting encontrado mostrou 5 features mais significatvas, de forma que foi possível analisar o comportamento de cada uma na série de dados.
+
+5) Uma vez conhecidas as importâncias das features (variáveis), é possível fazer uma tomada de decisão para implementar políticas públicas?
+R - Sim, foi possível fazer uma tomada de decisão e sugerir 3 políticas públicas distintas.
+
+6) Uma vez sugeridas as políticas públicas, estas surgem para alterar alguma já existente ou são completamente novas? Além disso, são simples ou muito complexas para implementar? 
+R- Numa busca simples, não foram encontradas políticas públicas de âmbito nacional, algumas vezes foram encontradas em âmbitos mais locais, de forma que as medidas parecem possuir viés diferente das econtradas localmente. Considerando as 3 propostas, 2 são de implementação mais simples e uma demanda estudo de viabilidade.
+
+Após isto, podemos concluir então que sim, os métodos de Machine Learning foram extremamente úteis na busca de regredir os dados apresentados nas fontes de dados  utilizadas e o modelo encontrado nos trouxe features para serem analisadas e, com isto, foi possível uma tomada de decisão e sugestão de 3 distintas políticas públicas que visam melhorar a posição do Brasil no ranking do World Energy Trilemma.
 ~~~
 
 # Trabalhos Futuros
 ~~~
-<Indique trabalhos futuros a partir do ponto alcançado.>
+Os trabalhos futuros podem se concentrar nos pontos críticos deste problema, de forma que poderiam incluir:
+
+a) Análises com séries mensais e mais fontes de dados, que embora sejam mais difíceis de se conseguir,  trariam um banco de dados mais complexo e que consolidaria melhor o modelo de machine learning;
+
+b) Comparativos com dados internacionais para uma análise de confiabilidade dos modelos de regressão;
+
+c) Aplicação de técnicas de Deep Learning, para uma análise mais robusta de variáveis.
 ~~~
