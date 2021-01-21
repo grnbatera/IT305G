@@ -91,7 +91,7 @@ The regression by Gradient Boosting brought 5 most important variables to the mo
 * `Gleyson Roberto do Nascimento` - `043801`
 
 # Vídeo do Projeto
-[![Projeto IT305G](https://github.com/grnbatera/IT305G/blob/main/Mídias/thumb.jpg=150x120)](http://bit.ly/youtubeIT305G)
+[![Projeto IT305G](https://github.com/grnbatera/IT305G/blob/main/Mídias/thumb.jpg | width=120)](http://bit.ly/youtubeIT305G)
 
 # Introdução e Motivação
 ~~~
