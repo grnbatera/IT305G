@@ -195,7 +195,36 @@ Comparativo entre os dados reais e os regredidos | Comparativo entre os dados re
 ![Gráfico 05](https://github.com/grnbatera/IT305G/blob/main/Mídias/g05.png) | ![Gráfico 06](https://github.com/grnbatera/IT305G/blob/main/Mídias/g06.png)
 ![Gráfico 07](https://github.com/grnbatera/IT305G/blob/main/Mídias/g07.png) | ![Gráfico 08](https://github.com/grnbatera/IT305G/blob/main/Mídias/g08.png)
 ![Gráfico 09](https://github.com/grnbatera/IT305G/blob/main/Mídias/g09.png) | ![Gráfico 10](https://github.com/grnbatera/IT305G/blob/main/Mídias/g10.png)
+~~~
+Desta maneira, ao analisarmos os dados e gráficos podemos concluir que o melhor método de regressão não linear por Machine Learning para os dados normalizados foi a a regressão por Gradient Boosting, de forma que este modelo trouxe as seguintes features (variáveis) mais relevantes:
+~~~
 
+Feature | Importância | Descrição
+----- | ----- | -----
+v29 | 1 | Geração Distribuída - Gás Natural(%)
+v46 | 2 | Consumo Médio Tensão A2 - 88 a 138 kV (GWh)
+v37 | 3 | Tarifa Média Tensão A1 - 230kV ou mais(R$/MWh)
+v47 | 4 | Consumo Médio Tensão A3 - 69kV(GWh)
+v49 | 5 | Consumo Médio Tensão A4- 2,3 a 25 kV(GWh)
+
+~~~
+Uma vez que as features (variáveis) mais relevantes forma determinadas, cabe a análise destas na série de dados, como segue:
+~~~
+
+Comportamento das features na série de dados | Comportamento das features na série de dados
+----- | -----
+![Gráfico 11](https://github.com/grnbatera/IT305G/blob/main/Mídias/g11.png) | ![Gráfico 12](https://github.com/grnbatera/IT305G/blob/main/Mídias/g12.png)
+![Gráfico 13](https://github.com/grnbatera/IT305G/blob/main/Mídias/g13.png) | 
+
+~~~
+Assim, considerando o comportamento das features, podemos estabelecer 3 sugestões de políticas públicas:
+
+a) Para o Gás Natural na Geração Distribuída:  Incentivo fiscal para uso do Biogás, de forma que a unidade consumidora que consiga fazer o manejo dos resíduos e utilizá-lo como Biogás de forma adequada e sustentável tenha redução dos principais impostos pagos para cada nível (IPTU, ISS, ICMS, etc). Além disso, para que exista a possibilidade de que cada grupo possa ter acesso aos meios para se criar o Biogás,  medidas como treinamentos e linhas de crédito de baixo custo são importantíssimos. Desta forma, além de aumentar participação do Gás Natural na Geração Distribuída, melhorando o índice mais importante do modelo de regressão de Machine Learning, estaremos de fato melhorando a atual solução de manejo de resíduos e dando valor à uma fonte de energia subutilizada;
+
+b) Para o Consumo nas Tensões A2, A3 e A4:  Este é um item mais complicado, uma vez que demanda uma adequação da rede para aumento do fornecimento de uma dada tensão ou uma adequação da unidade consumidora à uma nova tensão de entrada. Assim, a proposta seria mais de estudos para uma melhor distribuição entre as faixas de tensões, de forma que as faixas de tensão tenham um consumo mais equilibrado entre si, deslocando unidades consumidoras de faixa quando isto for viável segundo estudo prévio e dando incentivos fiscais e linhas de crédito para adequação de equipamentos para a nova faixa de tensão; 
+
+c) Para a Tarifa Média na Tensão A1: A proposta para este caso é mais simples, de forma que a unidade consumidora que conseguir melhorar sua Eficiência Energética, na forma de redução de MWh em sua conta, tenha a tarifa reduzida proporcionalmente a redução de energia durante o ano, ou seja, se em 1 ano houver uma economia de 5%, a tarifa será reduzida em 5% e assim por diante, incentivando a Eficiência Energética e melhorando um índice importante no modelo de Machine Learning, o que levará a uma posição melhor no trilemma.
+~~~
 
 # Conclusões
 ~~~
