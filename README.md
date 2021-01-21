@@ -188,8 +188,7 @@ c) Aleatoriedade em modelos de regressão por Machine Learning: um dos pontos po
 ~~~
 Com base na aplicação dos dados padronizados nos modelos de regressão não lineares por Machine Learning foram obtidos os seguintes resultados:
 ~~~
-
- | 
+Comparativo entre os dados reais e os regredidos | Comparativo entre os dados reais e os regredidos
 ----- | -----
 ![Gráfico 01](https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg) | ![Gráfico 02](https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg)
 ![Gráfico 03](https://github.com/grnbatera/IT305G/blob/main/Mídias/g03.jpg) | ![Gráfico 04](https://github.com/grnbatera/IT305G/blob/main/Mídias/g04.jpg)
