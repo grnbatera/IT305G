@@ -13,7 +13,7 @@ A estrutura [Cookiecutter Data Science](https://drivendata.github.io/cookiecutte
 │   ├── processed      <- dados normalizados usados nos modelos de regressão não lineares.
 │   └── raw            <- dados originais sem modificações.
 │
-├── notebook           <- Colab notebooks do projeto.
+├── notebook           <- Google Colaboratory notebook do projeto.
 │
 ├── Python 3.0         <- Linguagem de programação do projeto.
 │
@@ -156,7 +156,7 @@ De forma simplificada, o banco de dados unificado possuía 59 variáveis diferen
 Uma vez que os dados brutos foram normalizados, devido a grande disparidade de grandezas entre as variáveis existentes, estes passaram pelos 10 principais algorítmos de regressão não linear por Machine Learning disponíveis no Python 3.0. Para a análise destas saídas foram considerados 3 principais parâmetros: o score de treino, o score de teste e o RMSE. De forma que as respostas puderam ser compiladas conforme a tabela abaixo:
 ~~~
 
-Posição | Método | Score de Treino | Score de teste | RMSE - Raíz do Erro Quadrático Médio
+Posição | Método | Score de Treino | Score de teste | RMSE - Raiz do Erro Quadrático Médio
 ----- | ----- | ----- | ----- | -----
 1 | Regressão com GradientBoosting | 0.9999999060685 | 0.930055664679408 | 0.154478588479773
 2 | Regressão por Árvore de Decisão com AdaBoost | 0.889162561576354 | 0.948979591836734 | 0.131936203536836
@@ -175,15 +175,24 @@ Após a análise desta resposta, chegou-se a conclusão que o melhor método de 
 
 ## Evolução do Projeto
 ~~~
-<Relate a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.>
+Os principais desafios enfrentados durante o andamento deste projeto se concentraram nas seguintes áreas:
+
+a) Fontes de dados: infelizmente os dados possuem periodicidade anual, de forma que seriam poucas as observações possíveis na série e isto poderia comprometer o modelo de regressão não linear e até mesmo não ser possível encontrar um modelo válido. Além disto, não existe uma padronização na elaboração dos anuários, ou seja, a cada governo existem distintas formas de apresentação de dados e isto contribuiu para que existissem apenas 59 variáveis confiáveis e constantes em todos as fontes consultadas. Outro ponto muito relevante é que não há garantias de uniformidade de metodologia entre as fontes, de forma que temos apenas que assumir essa similaridade para continuar o projeto;
+
+b) Valores dos dados: as ordens de grandeza existentes entre váriaveis eram muito grandes, de forma que isso comprometeu os testes inciais dos modelos de regressão, sendo muito comum o overfitting e grandes valores de RMSE, contudo ao adotar a estratégia de padronização dos dados, este deixou de ser um problema, a partir daí, a obtenção de modelos com valores aceitáveis de score de treino, score de teste e RMSE foi mais comum.
+
+c) Aleatoriedade em modelos de regressão por Machine Learning: um dos pontos positivos e, também, negativos dos métodos de regressão por Machine Learning é que muitos deles utilizam raízes randômicas, de forma que o lado positivo é que o método não se limita, podendo encontrar uma solução mudando sua raiz, contudo o lado negativo é que podem ser necessárias várias tentativas até que se chegue a um resultado plausível e, sem garantias de que este mesmo resultado volte a ocorrer se o programa rodar novamente, de forma que uma vez que o resultado foi positivo, se deve verificar as features imediatamente. 
 ~~~
 
 # Resultados e Discussão
 ~~~
-<Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de detalhamento do projeto (o que for mais pertinente).
-
-A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?>
+Com base na aplicação dos dados padronizados nos modelos de regressão não lineares por Machine Learning foram obtidos os seguintes resultados:
 ~~~
+https://github.com/grnbatera/IT305G/blob/main/Mídias/g01.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g02.jpg
+https://github.com/grnbatera/IT305G/blob/main/Mídias/g03.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g04.jpg
+https://github.com/grnbatera/IT305G/blob/main/Mídias/g05.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g06.jpg
+https://github.com/grnbatera/IT305G/blob/main/Mídias/g07.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g08.jpg
+https://github.com/grnbatera/IT305G/blob/main/Mídias/g09.jpg | https://github.com/grnbatera/IT305G/blob/main/Mídias/g10.jpg
 
 # Conclusões
 ~~~
