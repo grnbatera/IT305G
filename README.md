@@ -272,4 +272,4 @@ c) Aplicação de técnicas de Deep Learning, para uma análise mais robusta de 
 
 [4] [Anuário Estatístico de Energia Elétrica:](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica) (acesso em janeiro/2021);
 
-[5] [World Energy Trilemma Index:](https://www.worldenergy.org/publications?cat=69) (acesso em janeiro/2021);
+[5] [World Energy Trilemma Index:](https://www.worldenergy.org/publications?cat=69) (acesso em janeiro/2021).
