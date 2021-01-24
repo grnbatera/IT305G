@@ -261,3 +261,11 @@ b) Comparativos com dados internacionais para uma análise de confiabilidade dos
 
 c) Aplicação de técnicas de Deep Learning, para uma análise mais robusta de variáveis.
 ~~~
+
+# Referências
+~~~
+[1] [Resultados do Procel](http://www.procelinfo.com.br/main.asp?View={EC4300F8-43FE-4406-8281-08DDF478F35B}) (acesso em janeiro/2021);
+[2] Balanço Energético Nacional: https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben (acesso em janeiro/2021);
+[3] Atlas da Eficiência Energética: https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/atlas-da-eficiencia-energetica-brasil-2019 (acesso em janeiro/2021);
+[4] Anuário Estatístico de Energia Elétrica: https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica (acesso em janeiro/2021);
+[5] World Energy Trilemma Index: https://www.worldenergy.org/publications?cat=69 (acesso em janeiro/2021);
